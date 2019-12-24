@@ -1,0 +1,406 @@
+body
+{
+    font-size: 15px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color:#00ffff;
+    line-height: 1.6;
+    margin: 0;
+    /*все что ниже - мои приколы */
+    background-color: rgb(52, 104, 154);
+   
+    
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0 auto;
+}
+
+
+/*h1
+            {
+                max-width: 250px;
+                width: 100%;
+                color:darkcyan;
+                background-color:rgba(0, 145, 147, 0.15);
+                border-color: dodgerblue;
+                border: 1px solid ;
+                border-top-left-radius:50px;
+                border-bottom-right-radius:50px;
+                border-bottom-width: 5px;
+                border-top-width: 5px;
+                margin-top: 100px;
+            }*/
+.table__Myportfolio
+{
+    display: table;
+    text-align: center;
+    
+    width: inherit; 
+    height: inherit;
+    
+    margin: 0 auto;
+    border:1px dotted;
+    background-color: rgba(0, 157, 255, 0.35);
+    border-color: rgba(0, 255, 216, 0.55);
+}
+
+
+.table__blog
+{
+    display: table;
+    
+    
+    width: inherit; 
+    height: inherit;
+    
+    margin: 10px auto;
+    border:1px dotted;
+    background-color: rgba(0, 157, 255, 0.35);
+    border-color: rgba(0, 255, 216, 0.55);
+}
+
+.table__del
+{
+    display: table;
+    
+    text-align: center;
+    width: 120px; 
+    height: 30px;
+    
+    margin: 10px auto;
+    border:1px dotted;
+    background-color: rgba(0, 157, 255, 0.35);
+    border-color: rgba(0, 255, 216, 0.55);
+}
+
+.td_del
+{
+    min-width: 210px; 
+    min-height: 30px;
+}
+
+
+.table__MyMarks
+{
+    
+    border-spacing: 3px;
+    margin: 10 auto;
+    
+    
+    
+}
+ 
+.table__MyTimetable
+{
+    margin: 10 10 auto;
+    font-size: 13;
+    width: 48.5%;
+    
+}
+
+
+
+.MT_td
+{
+    /*padding: 5 7 5 7;*/
+    text-align: center;
+    
+}
+
+
+.sub 
+{
+    width: 250;
+    height: auto;
+    padding: 5 3 5 3 ;
+    margin: 0 auto;
+}
+
+table 
+{
+    
+    border:1px dotted;
+    background-color: rgba(0, 157, 255, 0.35);
+    border-color: rgba(0, 255, 216, 0.55);
+}
+
+td
+{
+    border:1px solid;
+   border-color: rgba(255, 127, 80, 0.81);
+    margin: 0 auto;
+}
+
+
+
+#a
+{
+    color: #16ff29;
+    margin: 0 auto
+}
+
+#b
+{
+    margin: 0 auto;
+    color: #ffd937;
+}
+
+#c
+{
+    margin: 0 auto;
+    color: #ff7e0f;
+}
+
+#d
+{
+    margin: 0 auto;
+    color: #ff350f;
+}
+
+
+
+
+            li + li + li + li +li
+           {
+                color: chocolate;    
+           }  
+           
+           li + li + li + li
+           {
+                color: #d28d1e;    
+           }  
+            li + li + li 
+           {
+                color: #d2d21e;    
+           }  
+           
+           li + li 
+           {
+                color: #6ad21e;    
+           }  
+           
+           li 
+           {
+               color:#00acf8;
+           }
+
+/*делаем норм шапку с этого места*/
+.container 
+{
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1000px;
+    margin: 0 auto;
+}
+
+.container__MY_TT
+{
+    width: 100%;
+    max-width: 1080px;
+    max-height: 1000px;
+    /*min-width: 500px;*/
+    padding: 0 auto;
+    margin: 0 auto;
+   
+    
+}
+
+*,
+*:after,
+*:before
+{
+    box-sizing: border-box; 
+}
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 1200px;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background: url("./fon.jpg") center no-repeat;
+    -webkit- background-size: cover;
+    background-size: cover;
+   
+    
+    
+}
+
+.intro__MY_TT
+{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    max-height: 1200px;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background: url("./fon.jpg") center no-repeat;
+    -webkit- background-size: cover;
+    background-size: cover;
+    background: rgb(52, 104, 154);
+    
+    
+}
+
+
+.intro__inner
+{
+    width: 100%;
+    max-width: 300px;
+    max-height: 700px;
+    margin: 0 auto; 
+    
+    
+}
+
+.intro__inner__blog
+{
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 1000px;
+    margin: 0 auto; 
+    
+    
+}
+
+
+.blog
+{
+    overflow: scroll;
+    width: 100%;
+    max-width: inherit;
+    max-height: 443px;
+    margin: 10px auto;
+}
+
+.intro__title
+{
+    max-width: 250px;
+    width: 100%;
+    color:#00ffff;
+    background-color:rgba(0, 145, 147, 0.15);
+    border-color: dodgerblue;
+    border: solid ;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    border-right-width: 3.5px;
+    border-left-width: 3.5px;
+    text-align: center;
+    margin: 0 auto;
+                
+}
+
+.intro__suptitle
+{
+    font-family:'Kaushan Script', cursive;
+    text-align: center;
+    
+}
+    
+
+
+
+.nav
+{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav__link
+{
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 15px;
+    color:#00ffff;
+    text-decoration: none;
+    transition: color .2s linear;
+    position: relative;
+    
+}
+
+
+.nav__link:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top:100%;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(194, 125, 253);
+    opacity: 0;/*display: none;*/
+    transition: opacity .2s linear;
+
+}
+
+
+.nav__link:hover
+{
+        color:rgb(194, 125, 253);
+
+}
+
+.nav__link:hover:after
+{
+    opacity: 1;/*display: block;*/
+    
+}
+.header
+{
+    width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+    
+}
+
+.header__logo
+{
+    font-size: 30;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 32px;
+}
+
+.header__inner
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/*
+.ul
+{
+
+    
+    text-align: center;
+    display: block;
+    
+}
+
+
+.li
+{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    
+}*/
